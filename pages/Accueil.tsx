@@ -1,8 +1,10 @@
 import * as React from 'react';
+import Slider from '../components/Slider';
 
 const Accueil = () => {
   return (
     <div className="container marketing">
+      
       <div className="row">
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
