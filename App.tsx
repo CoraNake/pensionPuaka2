@@ -1,11 +1,18 @@
 import * as React from 'react';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Slider from './components/Slider';
+import Accueil from './pages/Accueil';
 import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Navbar />
+      <Slider />
+      <Accueil />
+      <Footer />
+
     </div>
   );
 }
