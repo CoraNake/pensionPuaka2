@@ -11,7 +11,7 @@ import "../src/styles.css";
 // import required modules
 import { Pagination } from "swiper";
 
-export default function App() {
+export default function slide() {
   return (
       <Swiper
         pagination={{
@@ -20,7 +20,13 @@ export default function App() {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>  <img
+            src={slide.url}
+            style={{
+              height: '30rem',
+              objectFit: 'cover',
+              objectPosition: 'top',
+            }} />  </SwiperSlide>
         
       </Swiper>
   );
